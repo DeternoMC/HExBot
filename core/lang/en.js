@@ -26,7 +26,7 @@ LANG_CONTENT[LANG_EN] = {
 	WEBCRAWLER_FIND_SIGNATURE: "(find other signature)",
 	WEBCRAWLER_FILTER_WITH: "Filter content using regex (e.g.  .*\\.crc.*  or  .*\\.vcol.*  or  .*something.*)",
 	CREDITS_TITLE: "Credits",
-	CREDITS_gresendesa: "Framework implementation, riddle solver, webcrawler, notifiers and translation to Portuguese & German",
+	CREDITS_gresendesa: "Framework implementation, riddle solver, webcrawler, notifiers and translation to English",
 	CREDITS_BACK_BUTTON: "Back",
 	REPOSITORY_LINK: '<b>version ' + VERSION_BOT + '</b>',
 	WARNING_BUTTON: 'IMPORTANT!\n\n *To solve puzzles, go to an UNSOLVED puzzle page and click over the red button that will appear.\n\n*Avoid to run the bot into an inactive tab. There are some time counting limitations when tab is inactive in most browsers. So, the bot may get slow if it\'s run into a inactive tab.\n\n* Use the notifiers carefully. The suspect logs notifier sends a GET request every second uninterruptedly. The new missions notifier sends a GET request every two seconds just when seconds to next missions are <= 1. Otherwise, it just waits. Big amounts of requests may be noticed by the game server. \'X-Requested-With\' header is not sent. :)\n\n* Abort the bot anytime. Just click over red bot button. \n\n* If bot suddendly stops, just try to reload the page. If it doesn\'t work, abort the bot. If you know how to access browser console, copy the error and/or jSpaghetti debug logs and report the problem on official repository.',
