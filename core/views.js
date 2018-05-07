@@ -18,7 +18,7 @@ var views = {
 				'<h5>' + LANG.CONTROL_PANEL_TITLE + '</h5>' +
 				'<span id="' + COMMAND_PANEL_CLOSE_BUTTON_DOM_ID + '" class="btn btn-danger" style="float: right">X</span>' +
 				'<span id="' + INFO_ALERT + '" class="btn btn-warning" style="float: right">!</span>' +
-				'<span id="' + CREDITS_INFO + '" class="btn btn-info" style="float: right">:)</span>' +
+				'<span id="' + CREDITS_INFO + '" class="btn btn-info" style="float: right">C</span>' +
 				'<span id="' + SET_CONFIG_PANEL + '" class="btn btn-secondary" style="float: right"><i class="fa fa-cog" aria-hidden="true"></i></span>' +
 			'</div>' +
 			'<div id="' + MAIN_SCREEN_DOM_ID + '" class="modal-body" style="max-height:405px">' +
@@ -66,15 +66,7 @@ var views = {
 			'<div id="' + CREDITS_SCREEN_DOM_ID + '" class="modal-body">' +
 				'<h1>' + LANG.CREDITS_TITLE + '</h1>' +
 				'<div style="font-size: 15px;">' +
-				'<a href="https://github.com/cmathiswausau">cmathiswausau</a> - ' + LANG.CREDITS_cmathiswausau + '<br />' +
-				'<a href="https://github.com/dominicusdev">dominicusdev</a> - ' + LANG.CREDITS_dominicusdev + '<br />' +
-				'<a href="https://github.com/gresendesa">gresendesa</a> - ' + LANG.CREDITS_gresendesa + '<br />' +
-				'<a href="https://github.com/Klorker">Klorker</a> - ' + LANG.CREDITS_Klorker + '<br />' +
-				'<a href="https://github.com/perfilrobo">perfilrobo</a> - ' + LANG.CREDITS_perfilrobo + '<br />' +
-				'<a href="https://github.com/Quartz101">Quartz101</a> - ' + LANG.CREDITS_Quartz101 + '<br />' +
-				'<a href="https://github.com/sjs1985">sjs1985</a> - ' + LANG.CREDITS_sjs1985 + '<br />' +
-				'<a href="https://github.com/fkapitalism">fkapitalism</a> - ' + LANG.CREDITS_fkapitalism + '<br />' +
-				'<a href="https://github.com/AssHole12">AssHole12</a> - ' + LANG.CREDITS_AssHole12 + '<br /><br />' +
+				'<a href="https://github.com/DeternoMC">Deterno</a> - ' + LANG.CREDITS_gresendesa + '<br />' +
 				LANG.CREDITS_OTHERS +
 				'</div><br />' +
 				'<button id="back-to-main" class="btn btn-success">' + LANG.CREDITS_BACK_BUTTON + '</button>'+
